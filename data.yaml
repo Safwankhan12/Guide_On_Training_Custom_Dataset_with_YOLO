@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/YOLOV8/data/train/images
+val: /content/drive/MyDrive/YOLOV8/data/valid/images
+test: /content/drive/MyDrive/YOLOV8/data/test/images
+
+nc: 1
+names: ['Fruit']
+
+roboflow:
+  workspace: school-vakkx
+  project: mango-fruit-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-vakkx/mango-fruit-detection/dataset/6
